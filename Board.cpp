@@ -21,64 +21,6 @@ void Board::resize1(uint row,uint col,uint len){
 for (uint i = 0; i < rowB; i++){
     board[i].resize(colB,'_'); //tagdil be kol shura godel amuda
 }
-// }
- // cout << "iam here at resize1"<<endl;
-//      bool r_b;
-//      bool c_b;
-//      if(row>=rowB){ //down down
-//    rowB+=(row - rowB)+1+ len;
-//    cout<<"curr rowB = "<<rowB <<endl;
-//     r_b = !r_b;
-//     //cout<<"iam at row>rowB"<<endl;
-//      }
-//    //cout << "current rowB is" <<rowB<<endl;
-//    if(col>=colB){ // >>
-//    cout <<"current col is ** "<<colB<<endl;
-//    colB+=((col-colB)+1+len);
-//    c_b = !c_b;
-//     cout<<"iam at col>colB"<<endl;
-//    }
-//   if((std::abs((int)(colB - col))+1)<=len){ //horgim mealuah im mila le zarih abs
-//    cout<<"colB before = "<<colB<<"curr len is = "<<len<<endl;
-//    uint res = std::abs((int)((col-colB) +len));
-//    //cout<<"res is = "<<res<<endl;
-//    colB+= res; //prev = new - old + len
-//    c_b = !c_b;
-//     cout<<"iam at((colB - col)+1)<=len "<<" colB is="<<colB<<endl;
-//   }
-//   //down down down
-//   if((std::abs((int)(rowB - row)+1))<=len){ //horgim mealuah im mila le zarih abs
-//    cout<<"rowB before = "<<rowB<<"curr len is = "<<len<<endl;
-//    uint res = std::abs((int)((row-rowB) +len));
-//    //cout<<"res is = "<<res<<endl;
-//    rowB+= (uint)res; //prev = new - old + len
-//    r_b = !r_b;
-//     cout<<"iam at((colB - col)+1)<=len "<<" rowB is="<<rowB<<endl;
-//   }
-//    //cout << "current colB is" <<colB<<endl;
-//    //tofer et 2 hamikrim mehuz lemata ve gam rak lemata
-//    //ROZIM LEAGDIL LE SHAM >>
-//    if(r_b){ //be mida ve rak be shurot gadalnu be amudot le
-//    cout<<"iam resizing down down current coll is ="<<colB<<endl;
-//   board.resize(rowB); //magdil pointer shura
-// for (uint i = 0; i < rowB; i++){
-//     board[i].resize(colB,'_'); //tagdil be kol shura godel amuda
-// }
-// }
-
-// //r_b == false
-//    else 
-//    { 
-//        //ROZIM LEAGDIL LEMATAMATA
-//         board.resize(colB);
-//        cout<<"iam at else resize1 "<<endl;
-//        cout<<"iam at else resize1 and rowB is  "<<rowB<<endl;
-//        cout<<"curr colB = "<<colB <<endl;
-//       for (uint i = 0; i < colB; i++){
-//     board[i].resize(rowB,'_'); //tagdil be kol shura godel amuda
-// }
-//    }
-   }
 
 
 
